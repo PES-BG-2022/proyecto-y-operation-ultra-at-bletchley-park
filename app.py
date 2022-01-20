@@ -12,7 +12,8 @@ df = pd.read_csv('https://gist.githubusercontent.com/chriddyp/5d1ea79569ed194d43
 fig = px.scatter(df, x="gdp per capita", y="life expectancy",
                  size="population", color="continent", hover_name="country",
                  log_x=True, size_max=60)
-
+# Definición del layout de la aplicación, en este momento consiste en una
+# gráfica solamente 
 app.layout = html.Div([
     dcc.Graph(
         id='life-exp-vs-gdp',
@@ -20,5 +21,7 @@ app.layout = html.Div([
     )
 ])
 
+
+# Ejecución principal de la aplicación
 if __name__ == '__main__':
     app.run_server(debug=True)
