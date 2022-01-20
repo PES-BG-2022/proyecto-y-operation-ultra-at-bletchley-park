@@ -10,7 +10,10 @@ df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapmi
 
 app = dash.Dash(__name__)
 
-app.layout = html.Div([
+app.layout = html.Div([html.H1("Relación del PIB y Mortalidad infaltil"),
+    html.Div(children='''
+        Una relación a lo largo del tiempo
+    '''),
     dcc.Graph(id='graph-with-slider'),
     dcc.Slider(
         id='year-slider',
