@@ -1,0 +1,2 @@
+Dashboard en Python usando Dash - Super fácil! - https://www.youtube.com/watch?v=N9yHClPGWG4&t=191s
+Clase 1| Dash en Python - Crea gráficos interactivos - https://www.youtube.com/watch?v=uUo31JYKj3k&t=1240s
