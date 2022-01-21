@@ -1,3 +1,22 @@
+# Dashboard con App Web (y acceso directo a base de datos del Banco Mundial adicional)
+El `objetivo inicial` del proyecto era crear un dashboard de análisis económico haciendo uso de la librería `Dash`.
+Además del objetivo principal alcanzamos `otros objetivos alternos`: creamos una `app interactiva` para la consulta del dashboard, creamos un `acceso directo de descarga` de toda la base de datos del Banco Mundial que permite prescindir del uso de archivos csv y creamos un gif para promover la difusión de los resultados.
+
+Se creó la herramienta interactiva de consulta de información económica utilizando la librería Dash, además de las vistas en clase para el manejo de datos: Pandas, Matplotlib y Numpy. Para el dominio de `Dash` nos auxiliamos principalmente del libro [Interactive Dashboards and Data Apps with Plotly and Dash](https://github.com/PES-BG/proyecto-y-operation-ultra-at-bletchley-park/blob/main/Referencias/Interactive%20Dashboard.pdf) y referencias varias.
+
+El dashboard permite analizar la relación entre el PIB per cápita en dólares y tasa de mortalidad infantil de todos los países disponibles en el Banco Mundial para 67 años -1952 a 2019 (la fecha donde todos tienen información actualizada)-. Los "callback" de la app hacen posible acceder a los datos con solo ubicar el cursor sobre la gráfica o haciendo clic en los flitros de año, región y país.
+
+Para conseguir toda la base de datos se hizo uso de un módulo "data-reader" de pandas, que es una herramienta que descubrimos en el proceso de investigación y de la cual se comaprte a los compañeros un [Manual de descarga de datos del Banco Mundial](https://github.com/PES-BG/proyecto-y-operation-ultra-at-bletchley-park/blob/main/Manual%20%20de%20descarga%20de%20data%20de%20Banco%20Mundial.ipynb) porque se considera un recurso de utilidad altamente significativa, ya que perite el acceso a la fuente de origen sin depender de intermediarios, permite vincular el resto del desarrollo de herramientas de análisis de datos a sitios web institucional a la vez que gestiona la información.
+
+Con fines promocionales se creó un gif para generar interés del público en la herramienta:
+(https://github.com/PES-BG/proyecto-y-operation-ultra-at-bletchley-park/blob/main/DashboardWeb_PIBperCapita_Mortalidad_infantil.gif)
+
+Todo lo descrito queda alojado en el repositorio para los buenos usos de los compañeros.
+
+Atentamente,
+
+            Jorge Orenos y Marlon Morales
+
 # Presentación final del curso de Programación I
 
 Este repositorio tiene como propósito servir de contenedor para los archivos de la presentación final del curso. Se deben guardar todos los archivos utilizados para la presentación (vea las condiciones de entrega más adelante). 
