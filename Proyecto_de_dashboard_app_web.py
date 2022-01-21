@@ -1,3 +1,5 @@
+# Importamos los módulos a utilizar
+
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -6,10 +8,13 @@ import plotly.express as px
 
 import pandas as pd
 
+# Cargando los datos a utilizar
 df = pd.read_csv("datos_final.csv")
 
+# Creando la app
 app = dash.Dash(__name__)
 
+# Creación de los elementos gráficos a visualizar
 app.layout = html.Div([html.H1("Relación del PIB per cápita y mortalidad infaltil"),
     html.H2("Una relación a lo largo del tiempo"),
     dcc.Graph(id="grafica-con-slider"),
@@ -32,6 +37,7 @@ app.layout = html.Div([html.H1("Relación del PIB per cápita y mortalidad infal
     ''')
 ])
 
+# Creación del callback para hacer la interacción entre datos y elementos gráficos
 
 @app.callback(
     Output("grafica-con-slider", "figure"),
