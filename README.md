@@ -8,7 +8,7 @@ El dashboard permite analizar la relación entre el PIB per cápita en dólares 
 
 Para conseguir toda la base de datos se hizo uso de un módulo "data-reader" de pandas, que es una herramienta que descubrimos en el proceso de investigación y de la cual se comaprte a los compañeros un [Manual de descarga de datos del Banco Mundial](https://github.com/PES-BG/proyecto-y-operation-ultra-at-bletchley-park/blob/main/Manual%20%20de%20descarga%20de%20data%20de%20Banco%20Mundial.ipynb) porque se considera un recurso de utilidad altamente significativa, ya que perite el acceso a la fuente de origen sin depender de intermediarios, permite vincular el resto del desarrollo de herramientas de análisis de datos a sitios web institucional a la vez que gestiona la información.
 
-Con fines promocionales y para generar interés del público en la herramienta se creó un [GIF](https://raw.githubusercontent.com/PES-BG/proyecto-y-operation-ultra-at-bletchley-park/main/DashboardWeb_PIBperCapita_Mortalidad_infantil.gif).
+Con fines promocionales y para generar interés del público en la herramienta se creó un ![GIF](https://raw.githubusercontent.com/PES-BG/proyecto-y-operation-ultra-at-bletchley-park/main/DashboardWeb_PIBperCapita_Mortalidad_infantil.gif).
 
 Todo lo descrito queda alojado en el repositorio para los buenos usos de los compañeros.
 
